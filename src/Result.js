@@ -19,8 +19,6 @@ export const Result = ({st}) => {
     }, [st])
 
     
-
-    
     
     return (
         <div className='test'>

@@ -1,7 +1,7 @@
 export const ApiCall = async(st) => {
 
     const apiKey = 'Ve1x9kstfCTT0uu7F3aXW468gjBgs0XJ';
-    const url = `http://api.giphy.com/v1/gifs/search?api_key=${apiKey}&limit=3&q=${st}`;
+    const url = `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&limit=3&q=${st}`;
     const resp = await fetch(url);
     const {data} = await resp.json();
 
